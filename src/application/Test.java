@@ -13,8 +13,10 @@ public class Test {
 			int surface = clavier.nextInt();
 			System.out.print("Donner à "+(i+1)+" une couleur ");
 			String couleur = clavier.nextLine();
+			formes[i]= new Forme(surface, couleur);
 		}
-		//formes[i]=(surface, couleur);
+		clavier.close();
+		
 	}
 
 }
