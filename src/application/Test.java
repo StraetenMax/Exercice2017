@@ -26,6 +26,9 @@ public class Test {
 		System.out.println(F1.description());
 		F3.setSurface(150);
 		System.out.println(F3.description());
+		
+		System.out.println(F1.afficher());
+		System.out.println(F2.masquer());
 	}
 
 }
