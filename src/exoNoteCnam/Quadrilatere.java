@@ -14,4 +14,22 @@ public class Quadrilatere extends Forme {
 		this.type = type;
 	}
 	
+	//accesseurs et mutateurs
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type = type;
+	}
+	
+	//méthodes
+	public String afficher(){
+		String aff = "Quadrilatere affiche";
+		return aff;
+	}
+	public String description(){
+		String des = super.description()+" qui est de type "+this.getType();
+		return des;
+	}
+	
 }
