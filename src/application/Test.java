@@ -20,8 +20,12 @@ public class Test {
 		Forme F2 = new Forme(250, "Jaune");
 		Forme F3 = new Forme(200, "Vert");
 		
-		
-		
+		System.out.println(F1.description());
+		System.out.println(F3.description());
+		F1.setCouleur("Orange");
+		System.out.println(F1.description());
+		F3.setSurface(150);
+		System.out.println(F3.description());
 	}
 
 }

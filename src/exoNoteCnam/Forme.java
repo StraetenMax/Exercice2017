@@ -7,7 +7,7 @@ public class Forme {
 	
 	//constructeurs vide et initialisé
 	public Forme(){
-		surface =0;
+		surface = 0;
 		couleur = "";
 	}
 	public Forme(int surface, String couleur){
