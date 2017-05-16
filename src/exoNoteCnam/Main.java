@@ -16,6 +16,9 @@ public class Main {
 		System.out.println(F1.description());
 		System.out.println(Q1.description());
 		System.out.println(R1.description());
+		
+		System.out.println(C1.estPlusGrandQue(C2));
+		System.out.println(R1.estDeMemeCouleurQue(R2));
 	
 	}
 
