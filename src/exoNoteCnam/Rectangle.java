@@ -13,4 +13,28 @@ public class Rectangle extends Quadrilatere{
 		super(surface,couleur, type);
 		this.aire = aire;
 	}
+	
+	//accesseur et mutateur
+	public int getAire(){
+		return aire;
+	}
+	public void setAire(int aire){
+		this.aire = aire;
+	}
+	
+	//méthodes
+	/*public boolean estDeMemeCouleurQue(Rectangle rect){
+	if(){
+
+	}else{
+		
+	}
+	return;
+	}*/
+	
+	public String description(){
+		String desc = super.description()+" qui a une aire de "+this.getAire();
+		return desc;
+	}
+	
 }
